@@ -22,9 +22,9 @@ class Pastapliiats{
 let sininePastakas = new Pastapliiats("sinine", "Pilot");
 let punanePastakas = new Pastapliiats("punane", "Bic");
 
-console.log(sininePastakas.tindiVarv);  //sinine
-console.log(punanePastakas.tindiVarv);  //punane
+console.log(sininePastakas.tindiVarv);  //prindib: sinine
+console.log(punanePastakas.tindiVarv);  //prindib: punane
 
-console.log(sininePastakas.aktiivsus);  //false
+console.log(sininePastakas.aktiivsus);  //prindib: false
 sininePastakas.pastakasAktiivne();
-console.log(sininePastakas.aktiivsus);  //true
+console.log(sininePastakas.aktiivsus);  //prindib: true
